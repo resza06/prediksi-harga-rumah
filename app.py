@@ -24,4 +24,4 @@ if st.button("Prediksi"):
     harga_format = format_rupiah_auto(harga)
 
     st.success(f"Estimasi harga rumah: {harga_format}")
-    st.caption(f"(Nilai asli: Rp {harga:,.2f})")
+   
