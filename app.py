@@ -1,3 +1,4 @@
+import joblib
 model = joblib.load('model_prediksi_harga_rumah.pkl')
 
 st.title("Prediksi Harga Rumah")
