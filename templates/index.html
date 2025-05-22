@@ -70,7 +70,7 @@
                 <h1 class="text-2xl mb-8">
                     Estimasi harga rumah Anda adalah
                 </h1>
-                <h2 class="text-5xl font-bold">Rp {{ predicted_price }}</h2>
+                <h2 class="text-5xl font-bold">{{ predicted_price }}</h2>
                 {% if predicted_price != 0 %}
                 <div class="mt-8">
                     <p>Luas Bangunan: {{ floorarea }} m²</p>
@@ -78,8 +78,6 @@
                 </div>
                 {% endif %}
             </div>
-
-          
         </section>
     </body>
 </html>
