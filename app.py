@@ -1,3 +1,4 @@
+import streamlit as st
 import joblib
 model = joblib.load('model_prediksi_harga_rumah.pkl')
 
